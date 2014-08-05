@@ -1,5 +1,23 @@
-// my data
+// array of objects
 
+// city has 3 metrics: 
+/*
+
+** gdp
+** income
+** population
+
+each of the above take a 2D array [a,b]
+
+*** where a = year, 
+***       b = someValue, 
+
+
+the region field is optional
+
+*/
+
+data = 
 [
   {
     "city": "Hamilton",
@@ -42,7 +60,9 @@
     ]
 
   },
-  {},
+  { /* more cities */ },
+  { /* more cities */ },
+  { /* more cities */ },
 ]
 
 
